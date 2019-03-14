@@ -42,5 +42,15 @@ Take a screen shot of your GitHub Desktop showing this Repository (`1-5-github-d
 In GitHub Desktop you should see a link to `open this repository` -- That will open the folder where this repository is checked out 
 on your local computer. Copy the screenshot you made to this folder. 
 
-## Deliverable
+#### 7. Commit new files 
+In the bottom left corner of the GitHub Desktop window, enter a Comment and then click `Commit to desktop`. This doesn't actually copy the file to the remote repository but it flags it in your local copy that it needs to be pushed to the remote 
+repo. Verify by refreshing the `<> Code` page for this repo in the browser and checking the branches drop-down.
+
+#### 8. Push commit to remote repo
+Click `Publish` or `Push origin` in the menu at the top of GitHub Desktop. This will upload the screen shot you took to the branch on GitHub. Again, verify by refreshing the `<> Code` page for this repo in the browser and checking the branches drop-down. 
+
+#### 9. Create Pull request
+In GitHub Desktop, click `Branch` -> `Create Pull request`. This will open the GitHub.com website where you can submit the PR. Make sure you tag the instructor with `@aaryn` in your PR comment. 
+
+
 
