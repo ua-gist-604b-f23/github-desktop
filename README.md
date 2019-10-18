@@ -1,6 +1,6 @@
 # Assignment: GitHub Desktop
 ## Worth: 10
-## Due: March 24, 2019, 11:59pm
+## Due: 7 days
 ## Assignment
 ### Background
 So far we've edited our GitHub files directly in the browser, but this is actually a special case.
