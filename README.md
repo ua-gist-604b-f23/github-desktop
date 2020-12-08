@@ -55,3 +55,12 @@ In GitHub Desktop, click `Branch` -> `Create Pull request`. This will open the G
 ## Deliverable:
 - You have submitted a pull request to merge a branch, `desktop`, with `master`
 - The branch contains a file, `github-desktop-screenshot.png`, which is a screenshot of your GitHub Desktop at Step 4.
+
+## Troubleshooting issues with CI:
+There are a couple reasons why the GitHub Actions might fail:
+1) The branch name is not `desktop`. If this is the case, you can rename the branch in GitHub Desktop using the `Branch`->`Rename` drop-down. Remember that you will need to push to remote if you change something in GitHub Desktop.
+2) The branch is missing the file, `github-desktop-screenshot.png`. Some possible causes:
+  - the file was not added to the repo
+  - the file was added to the wrong branch
+  - the branch was not pushed to remote
+  - the filename does not match exactly `github-desktop-screenshot.png`
