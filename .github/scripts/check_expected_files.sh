@@ -1,6 +1,6 @@
 #!/bin/sh -l
 
-EXPECTED_FILES=github-desktop-screenshot.png
+EXPECTED_FILES=$*
 
 ## Check Files
 
