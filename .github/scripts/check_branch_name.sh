@@ -1,7 +1,6 @@
 #!/bin/sh -l
 
 EXPECTED_BRANCH_NAME=desktop
-EXPECTED_FILES=github-desktop-screenshot.png
 
 THIS_BRANCH=$(git rev-parse --abbrev-ref HEAD)
 
@@ -20,13 +19,3 @@ if [  "$THIS_BRANCH" != "desktop" ]; then
     echo "The branch name should be: \'my_branch\'"
     exit 1
 fi
-
-## Check Files
-
-for f in $EXPECTED_FILES
-do
-    if [ ! -f "$f" ]; then
-        echo "Expected file named $f but it does not seem to exist in this branch in the repo"
-        exit 1
-    fi
-done
