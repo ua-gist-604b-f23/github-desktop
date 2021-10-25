@@ -13,7 +13,7 @@ jobs:
         id: check-github-branch
         uses: goshencollege/validate-branch-name@v1.0.1
         with:
-          pattern: my-branch
+          pattern: desktop
           
           
       - name: Check required files
